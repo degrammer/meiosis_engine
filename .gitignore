@@ -1,0 +1,10 @@
+#Dependencies
+bin/**/*
+packages/**/*
+obj/**/*
+obj/Debug/*
+*.cache
+Meiosis.Tests/bin/
+Meiosis.Tests/obj/
+Meiosis.Engine/obj/
+Meiosis.Engine/bin/
