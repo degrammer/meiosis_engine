@@ -46,6 +46,9 @@
     <Compile Include="ImageGalleryItem.cs" />
     <Compile Include="interfaces\IMeiosisEngine.cs" />
     <Compile Include="engines\ImageGalleryEngine.cs" />
+    <Compile Include="LoremIpsumProvider.cs" />
+    <Compile Include="LoremIpsumText.cs" />
+    <Compile Include="LoremIpsumTextDictionary.cs" />
     <Compile Include="LoremPixelProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomImageProvider.cs" />

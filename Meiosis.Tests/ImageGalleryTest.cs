@@ -27,8 +27,8 @@ namespace Meiosis.Tests
         [Test]
         public void ShouldCreateAnImageGallery()
         {
-            LoremPixelProvider loremPixel = new LoremPixelProvider();
             //Arrange
+            LoremPixelProvider loremPixel = new LoremPixelProvider();
             int expectedCount = 10;
             //Act
             ImageGallery gallery = _imageGalleryEngine.Create(expectedCount, null);
@@ -36,5 +36,7 @@ namespace Meiosis.Tests
             Assert.AreEqual(gallery.Items.Count(), expectedCount);
 
         }
+
+      
     }
 }
