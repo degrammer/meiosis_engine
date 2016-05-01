@@ -2,11 +2,11 @@
 
 namespace Meiosis.Engine
 {
-    public class LoremIpsumProvider
+    public class LoremIpsumEngine
     {
 
         private LoremIpsumTextDictionaryProvider _dictionaryProvider;
-        public LoremIpsumProvider(LoremIpsumTextDictionaryProvider provider)
+        public LoremIpsumEngine(LoremIpsumTextDictionaryProvider provider)
         {
             _dictionaryProvider = provider;
         }

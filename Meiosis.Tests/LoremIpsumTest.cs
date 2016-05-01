@@ -27,7 +27,7 @@ namespace Meiosis.Tests
 
             //Arrange
             int expectedWords = 1000;
-            LoremIpsumProvider loremIpsum = new LoremIpsumProvider(_dictonaryMock.Object);
+            LoremIpsumEngine loremIpsum = new LoremIpsumEngine(_dictonaryMock.Object);
             //Action
             LoremIpsumText text = loremIpsum.Create(expectedWords);
             //Assert
@@ -41,7 +41,7 @@ namespace Meiosis.Tests
             //Arrange
             int expectedWords = 1000;
             _dictonaryMock.Setup(x => x.GetWords(expectedWords)).Returns(new List<string>());
-            LoremIpsumProvider loremIpsum = new LoremIpsumProvider(_dictonaryMock.Object);
+            LoremIpsumEngine loremIpsum = new LoremIpsumEngine(_dictonaryMock.Object);
             //Action
             loremIpsum.Create(expectedWords);
             //Assert
