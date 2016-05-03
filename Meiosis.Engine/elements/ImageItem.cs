@@ -2,7 +2,7 @@
 
 namespace Meiosis.Engine
 {
-    public class RandomImage:DataElement
+    public class ImageItem:DataElement
     {
         public DateTime CreationDate { get; set; }
         public string Description { get; set; }

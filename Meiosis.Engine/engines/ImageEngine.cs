@@ -4,23 +4,23 @@ using System;
 
 namespace Meiosis.Engine
 {
-    public class ImageGalleryEngine:IMeiosisEngine<RandomImage, ImageGallery>
+    public class ImageEngine:IMeiosisEngine<ImageItem, ImageGallery>
     {
 
         private RandomImageProvider _randomImageProvider;
-        public ImageGalleryEngine(RandomImageProvider randomImageProvider)
+        public ImageEngine(RandomImageProvider randomImageProvider)
         {
             _randomImageProvider = randomImageProvider;
         }
 
-        public ImageGallery Create(int times, RandomImage defaultTemplate)
+        public ImageGallery Create(int times, ImageItem defaultTemplate)
         {
 
             ImageGallery gallery = new ImageGallery();
 
             for (int i = 0; i < times; i++)
             {
-                RandomImage item = new RandomImage();
+                ImageItem item = new ImageItem();
 
                 if (_randomImageProvider != null)
                 {
@@ -34,5 +34,16 @@ namespace Meiosis.Engine
             return gallery;
         }
 
+        public ImageItem Create()
+        {
+            ImageItem item = new ImageItem();
+
+            if (_randomImageProvider != null)
+            {
+                item = _randomImageProvider.GetImage();
+            }
+
+            return item;
+        }
     }
 }

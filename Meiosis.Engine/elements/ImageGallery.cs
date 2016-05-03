@@ -5,13 +5,13 @@ namespace Meiosis.Engine
 {
     public class ImageGallery:DataElement
     {
-        private List<RandomImage> _items;
+        private List<ImageItem> _items;
 
-        public List<RandomImage> Items
+        public List<ImageItem> Items
         {
             get
             {
-                _items = _items ?? new List<RandomImage>();
+                _items = _items ?? new List<ImageItem>();
                 return _items;
             }
 

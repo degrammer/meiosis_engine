@@ -11,9 +11,9 @@ namespace Meiosis.Tests
 {
 
     [TestFixture]
-    public class ImageGalleryTest
+    public class ImageTest
     {
-        private ImageGalleryEngine _imageGalleryEngine;
+        private ImageEngine _imageGalleryEngine;
         private LoremPixelProvider _loremIpsumImageProvider;
 
         [SetUp]
@@ -21,7 +21,7 @@ namespace Meiosis.Tests
         {
 
             _loremIpsumImageProvider = new LoremPixelProvider();
-            _imageGalleryEngine = new ImageGalleryEngine(_loremIpsumImageProvider);
+            _imageGalleryEngine = new ImageEngine(_loremIpsumImageProvider);
         }
 
         [Test]

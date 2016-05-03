@@ -40,18 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataContainer.cs" />
-    <Compile Include="DataElement.cs" />
-    <Compile Include="ImageGallery.cs" />
-    <Compile Include="ImageGalleryItem.cs" />
+    <Compile Include="LoremIpsumTextProvider.cs" />
+    <Compile Include="models\DataContainer.cs" />
+    <Compile Include="models\DataElement.cs" />
+    <Compile Include="elements\ImageGallery.cs" />
+    <Compile Include="elements\ImageItem.cs" />
     <Compile Include="interfaces\IMeiosisEngine.cs" />
-    <Compile Include="engines\ImageGalleryEngine.cs" />
+    <Compile Include="engines\ImageEngine.cs" />
     <Compile Include="engines\LoremIpsumEngine.cs" />
-    <Compile Include="LoremIpsumText.cs" />
-    <Compile Include="LoremIpsumTextDictionary.cs" />
+    <Compile Include="models\LoremIpsumText.cs" />
+    <Compile Include="interfaces\ILoremIpsumTextDictionary.cs" />
     <Compile Include="LoremPixelProvider.cs" />
+    <Compile Include="models\Person.cs" />
+    <Compile Include="PersonEngine.cs" />
+    <Compile Include="PersonNamesProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RandomImageProvider.cs" />
+    <Compile Include="providers\RandomImageProvider.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

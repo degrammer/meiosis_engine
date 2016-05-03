@@ -11,9 +11,9 @@ namespace Meiosis.Engine
             BaseURL = "http://lorempixel.com/";
         }
 
-        public override RandomImage GetImage()
+        public override ImageItem GetImage()
         {
-            return new RandomImage
+            return new ImageItem
             {
                 URI = new Uri(string.Format("{0}/{1}/{2}", BaseURL, this.Width, this.Height))
             };

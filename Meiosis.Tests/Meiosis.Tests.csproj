@@ -48,8 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ImageGalleryTest.cs" />
+    <Compile Include="ImageTest.cs" />
     <Compile Include="LoremIpsumTest.cs" />
+    <Compile Include="PersonTest.cs" />
+    <Compile Include="PersonNamesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

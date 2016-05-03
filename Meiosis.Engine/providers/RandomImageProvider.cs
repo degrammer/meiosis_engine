@@ -8,7 +8,7 @@
 
         public string BaseURL { get; set; }
 
-        public virtual RandomImage GetImage()
+        public virtual ImageItem GetImage()
         {
             return null;
         }

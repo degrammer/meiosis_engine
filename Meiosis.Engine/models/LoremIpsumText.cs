@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Meiosis.Engine
 {
@@ -19,6 +20,12 @@ namespace Meiosis.Engine
             {
                 _words = value;
             }
+        }
+
+
+        public string AsParagraph()
+        {
+           return String.Join(" ", Words);
         }
     }
 }
