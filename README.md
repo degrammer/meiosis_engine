@@ -1,3 +1,3 @@
 # meiosis_engine
 A C# Data Test Generator API
-# Hello There, I'm Just starting this project, I hope to release some new readme docs in the next days ;)
+# Run the Console Project, Open a Browser at port http://localhost:2259 (Is using a self hosted Owin Server)
