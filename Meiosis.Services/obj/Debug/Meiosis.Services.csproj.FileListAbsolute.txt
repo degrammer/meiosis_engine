@@ -1,0 +1,14 @@
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Meiosis.Services.dll
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Meiosis.Services.pdb
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Nancy.dll
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Owin.dll
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Nancy.xml
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\obj\Debug\Meiosis.Services.csprojResolveAssemblyReference.cache
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\obj\Debug\Meiosis.Services.dll
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\obj\Debug\Meiosis.Services.pdb
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Nancy.Owin.dll
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Nancy.Owin.xml
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Meiosis.Engine.dll
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Meiosis.Engine.pdb
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\open-source\meiosis_engine\Meiosis.Services\bin\Debug\Newtonsoft.Json.xml
